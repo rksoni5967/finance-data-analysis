@@ -23,8 +23,8 @@ The goal of this analysis is to:
    - **Customer Segmentation**: Performed segmentation to identify clusters of customers with similar characteristics and behaviors.
 
 2. **Data Cleaning**:
-   - Handled missing values by imputing where necessary and removing any inconsistencies.
-   - Encoded categorical variables (e.g., marital status, education) to prepare them for analysis.
+   - Handled negative values by imputing where necessary and removing any inconsistencies.
+   - Encoded categorical variables (account information, education) to prepare them for analysis.
 
 3. **Correlation Analysis**:
    - Conducted correlation analysis between different customer features and loan purchase likelihood.
@@ -43,7 +43,7 @@ The goal of this analysis is to:
    - Identified that customers who had engaged with previous campaigns or maintained a higher account balance had a higher probability of conversion.
 
 6. **Visualization**:
-   - Created visualizations (bar plots, histograms, pie charts, and heatmaps) to clearly present data trends and relationships. This helped highlight the customer groups most likely to purchase a loan.
+   - Created visualizations (box plots, histograms, pie charts, and heatmaps) to clearly present data trends and relationships. This helped highlight the customer groups most likely to purchase a loan.
 
 ## Tools & Technologies
 - **Python**: For data manipulation and analysis
@@ -56,15 +56,9 @@ The goal of this analysis is to:
 - **Account Behavior**: A significant portion of loan buyers had account balances above a certain threshold, indicating financial stability.
 - **Previous Engagement**: Customers who had responded positively to past campaigns had a higher conversion rate in this campaign.
 
-### Recommendations:
-1. **Target High-Value Customers**: Focus on customers with higher account balances and stable incomes for future campaigns.
-2. **Personalized Campaigns**: Segment the customer base by age, income, and previous interactions to create tailored marketing messages.
-3. **Leverage Customer History**: Customers who responded to previous campaigns should be prioritized for follow-ups as they have shown higher purchase likelihood.
-
 ## Repository Structure
-- `data/`: Contains cleaned datasets used for analysis.
-- `notebooks/`: Jupyter notebooks showing the step-by-step data analysis.
-- `visualizations/`: Contains graphs and charts generated during the analysis.
+- `Bank_Personal_Loan_Modelling-checkpoint.csv`: Contains cleaned datasets used for analysis.
+- `Loan_data.ipynb` : Jupyter notebooks showing the step-by-step data analysis.
 - `README.md`: Project overview and details.
 
 ## How to Use
